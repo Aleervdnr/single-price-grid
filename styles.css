@@ -173,4 +173,11 @@ body{
     .card-top{
         grid-column:1/2 ;
     }
+
+    .card-bottom-left{
+        border-bottom-left-radius: 0;
+    }
+    .card-bottom-right{
+        border-bottom-left-radius: 10px;
+    }
 }
