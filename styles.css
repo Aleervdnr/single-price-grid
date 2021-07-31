@@ -164,7 +164,7 @@ body{
 
     .card{
         width: 80%;
-        min-width: none;
+        min-width: 365px;
         grid-template-rows: 1fr 1fr 1fr;
         grid-template-columns: 1fr;
         margin-top: 80px;
