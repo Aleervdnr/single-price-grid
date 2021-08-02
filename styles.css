@@ -158,16 +158,15 @@ body{
 }
 @media (max-width: 768px){
     .container{
-        height: calc(100vh + 250px);
         align-items: flex-start;
     }
 
     .card{
         width: 80%;
-        min-width: 365px;
+        /* min-width: 365px; */
         grid-template-rows: 1fr 1fr 1fr;
         grid-template-columns: 1fr;
-        margin-top: 80px;
+        margin: 80px 0; 
     }
 
     .card-top{
